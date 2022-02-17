@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="styleHeader" th:insert="fragments/_header :: header"></div>
+
+<div>
+    <h1 th:text="${wds.name}"></h1>
+    <h1 th:text="${wds.definition}"></h1>
+</div>
+
+</body>
+</html>

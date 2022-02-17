@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="styleHeader" th:insert="fragments/_header :: header"></div>
+<div>
+    <form method="post"
+          th:action="@{/get-word}"
+          th:object="${word}">
+        <input type="text" id="search" name="search" th:value="*{name}" aria-label="search">
+        <br/>
+        <button type="submit" onclick="">Search</button>
+    </form>
+    <div>
+        <h1>Searchable words:</h1>
+        <tr th:each="word : ${words}">
+            <td>
+                <h3 th:text="${word.name}">Word</h3>
+            </td>
+        </tr>
+    </div>
+</div>
+
+</body>
+</html>

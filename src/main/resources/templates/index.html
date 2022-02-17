@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="styleHeader" th:insert="fragments/_header :: header"></div>
+<div>
+    <tr th:each="word : ${words}">
+        <td>
+            <a th:href="@{'/display-word/'+${word.name}}"><h3 id="blacktxt" th:text="${word.name}">Word</h3></a>
+            <span th:text="${word.definition}">Definition</span>
+        </td>
+    </tr>
+</div>
+
+</body>
+</html>

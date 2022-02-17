@@ -1,0 +1,42 @@
+ [
+  {
+    "name": "erlking",
+    "definition": "a spirit or personified natural power that works mischief, especially to children."
+  },
+  {
+    "name": "cat",
+    "definition": "a small domesticated carnivore, Felis domestica or F. catus, bred in a number of varieties."
+  },
+  {
+    "name": "dog",
+    "definition": "a domesticated canid, Canis familiaris, bred in many varieties."
+  },
+  {
+     "name": "hedgehog",
+     "definition": "an Old World, insect-eating mammal of the genus Erinaceus, especially E. europaeus, having spiny hairs on the back and sides."
+  },
+  {
+     "name": "bird",
+     "definition": "any warm-blooded vertebrate of the class Aves, having a body covered with feathers, forelimbs modified into wings, scaly legs, a beak, and no teeth, and bearing young in a hard-shelled egg."
+  },
+  {
+     "name": "rabbit",
+     "definition": "any of several soft-furred, large-eared, rodentlike burrowing mammals of the family Leporidae, allied with the hares and pikas in the order Lagomorpha, having a divided upper lip and long hind legs, usually smaller than the hares and mainly distinguished from them by bearing blind and furless young in nests rather than fully developed young in the open."
+  },
+  {
+     "name": "fox",
+     "definition": "any of several carnivores of the dog family, especially those of the genus Vulpes, smaller than wolves, having a pointed, slightly upturned muzzle, erect ears, and a long, bushy tail."
+  },
+  {
+     "name": "shark",
+     "definition": "any of a group of elongate elasmobranch, mostly marine fishes, certain species of which are large, voracious, and sometimes dangerous to humans."
+  },
+  {
+     "name": "fish",
+     "definition": "any of various cold-blooded, aquatic vertebrates, having gills, commonly fins, and typically an elongated body covered with scales."
+  },
+  {
+     "name": "hamster",
+     "definition": "any of several short-tailed, stout-bodied, burrowing rodents, as Cricetus cricetus, of Europe and Asia, having large cheek pouches."
+  }
+ ]
